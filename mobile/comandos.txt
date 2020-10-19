@@ -1,0 +1,19 @@
+Inicianto tudo:
+sudo yarn global add expo-cli
+
+Criando aplicação:
+expo init nome-projeto
+
+- cd mobile
+- yarn start
+
+Maps:
+expo install react-native-maps 
+
+Fonts:
+expo install @expo-google-fonts/nunito expo-font
+
+Roteamento - Navegação:
+yarn add @react-navigation/native
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add @react-navigation/stack
